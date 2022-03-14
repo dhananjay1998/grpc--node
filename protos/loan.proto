@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package demoexample;
+
+service LoanService {
+    rpc GetLoans(LoanRequest) returns (stream LoanResponse) {};
+}
+
+message LoanRequest {
+    string customerid = 1;
+}
+message LoanResponse {
+    string loanid = 1;
+    int32 statuscode = 2;
+    double closingamount = 3;
+}
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "node-grpc-prc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.19.4",
+    "grpc": "^1.24.11",
+    "knex": "^1.0.3",
+    "pg": "^8.7.3"
+  }
+}
